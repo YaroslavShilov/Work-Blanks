@@ -1,0 +1,142 @@
+body {
+	background-color: #224066;
+}
+#hero {
+	width: 250px;
+	height: 358px;
+	position: relative;
+	left: 150px;
+	top: 150px;
+}
+
+@keyframes hero-stance {
+	from {
+		top: 0;
+	}
+	to {
+		top: -10px;
+	}
+}
+
+#hero .stance {
+	visibility: hidden;
+	width: 100%;
+	height: 100%;
+	background: url(../img/stance.png) center center no-repeat;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 2;
+	animation-name: hero-stance;
+	animation-duration: 1.3s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: ease-in-out;
+}
+#hero .attack {
+	visibility: hidden;
+	width: 100%;
+	height: 100%;
+	background: url(../img/attack.png) center center no-repeat;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 2;
+}
+#hero.idle .stance {
+	visibility: visible;
+}
+
+@keyframes attack {
+	from {
+		top: 0;
+		right: 0;
+	}
+	to {
+		top: -30px;
+		right: -10px;
+	}
+}
+
+#hero.attack .attack {
+	visibility: visible;
+	animation-name: attack;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	transition: top 0.5s linear, right 0.5s linear;
+}
+
+@keyframes shadow {
+	from {
+		width: 250px;
+	}
+	to {
+		width: 226px;
+		left: 13px;
+	}
+}
+
+#hero .shadow {
+	background-image: url(../img/shadow.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 250px;
+	height: 84px;
+	position: absolute;
+	left: 0;
+	bottom: -45px;
+	z-index: 1;
+	animation-name: shadow;
+	animation-duration: 1.3s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: ease-in-out;
+}
+#hero.attack .shadow {
+	animation-name: none;
+	width: 226px;
+	left: 13px;
+} 
+#hero .text {
+	font-size: 55px;
+	color: white;
+	width: 660px;
+	position: absolute;
+	left: 130%;
+	top: -6px;
+}
+
+@keyframes laser {
+	from {
+		widows: 175px;
+	}
+	to {
+		width: 845px;
+	}
+}
+
+#hero .laser {
+	width: 175px;
+	height: 68px;
+	background-image: url(../img/laser.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	left: 141px;
+	top: 16px;
+	animation-name: laser;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+#hero .laser::after {
+	content: "";
+	width: 4px;
+	background-color: #ffe500;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 1px;
+	box-shadow: 0 0 10px 3px #ffe500;
+	border-radius: 3px;
+}

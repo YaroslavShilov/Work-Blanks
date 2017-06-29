@@ -1,0 +1,28 @@
+body {
+	background-color: tomato;
+}
+.container {
+	border: 2px solid #3CDFFF;
+	width: 450px;
+	height: 300px;
+	margin: 50px auto;
+	position: relative;
+}
+.box {
+	background-color: #3CDFFF;
+	width: 80px;
+	height: 80px;
+	position: absolute;
+}
+
+
+/*v.1*/
+.box {
+	background-color: #3CDFFF;
+	width: 80px;
+	height: 80px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	position: absolute;
+}

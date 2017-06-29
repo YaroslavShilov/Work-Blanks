@@ -1,0 +1,244 @@
+/*coder site (верстальщик)
+ShilovYaroslavAndreevich
+shilovyaroslavandreevich@gmail.com
+@Yaroslav_Shilov
+*/
+* {
+	box-sizing: border-box;
+}
+body {
+	min-width: 300px;
+	background-color: #BFA79F;
+	padding-top: 40px;
+}
+.content {
+	width: 300px;
+	height: 420px;
+	margin: 0 auto;
+	position: relative;
+}
+.game {
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	&.diagL,
+	&.diagR {
+		&:after {
+			content: "";
+			width: 2px;
+			height: 900px;
+			background-color: #fff;
+			position: absolute;
+		}
+	}
+	&.diagR {
+		&:after {
+			top: -151px;
+			left: 0;
+			transform: rotate(45deg);
+		}
+	}
+	&.diagL {
+		&:after {
+			top: -151px;
+			right: 0;
+			transform: rotate(-45deg);
+		}
+	}
+}/*END game*/
+.block4, 
+.block5,
+.block6 {
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+}
+.block2,
+.block5,
+.block8 {
+	border-right: 2px solid #fff;
+	border-left: 2px solid #fff;
+}
+.block {
+	width: 100px;
+	height: 100px;
+	float: left;
+	position: relative;
+	padding: 15px;
+	overflow: hidden;
+	>div {
+		width: 66px;
+		height: 66px;
+	}
+	&.horiz,
+	&.vert {
+		&:after {
+			content: "";
+			background-color: #fff;
+			position: absolute;
+		}
+	}
+	
+	&.horiz {
+		&:after {
+			width: 200px;
+			height: 2px;
+			top: 50%;
+			left: 0;
+			margin-top: -1px;
+		}
+	}
+
+	&.vert {
+		&:after {
+			width: 2px;
+			height: 100px;
+			top: 0;
+			left: 50%;
+			margin-left: -1px;
+		}
+	}
+}
+.brain {
+	border: 2px solid #fff;
+	border-radius: 50%;
+}
+.user {
+	position: relative;
+	span {
+		width: 2px;
+		height: 66px;
+		background-color: #fff;
+		position: absolute;
+		top: 0;
+		left: 50%;
+		margin-left: -1px;
+		transform: rotate(45deg);
+	}
+	span:after {
+		content: "";
+		width: 2px;
+		height: 66px;
+		background-color: #fff;
+		position: absolute;
+		top: 0;
+		left: 50%;
+		margin-left: -1px;
+		transform: rotate(90deg);
+	}
+}
+
+/*BEGIN button*/
+/* Цвет на странице при выделении */
+::-moz-selection {background: transition;}
+::selection {background: transition;}
+/*End Цвет при выделении*/
+.button {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    display: inline-block;
+    margin: 0 auto;
+    transform: translate(-50%, 0);
+    border-radius: 10px;
+    box-shadow: 
+        0px 3px rgba(128,128,128,1), /* gradient effects */
+        0px 4px rgba(118,118,118,1),
+        0px 5px rgba(108,108,108,1),
+        0px 6px rgba(98,98,98,1),
+        0px 7px rgba(88,88,88,1),
+        0px 8px rgba(78,78,78,1),
+        0px 14px 6px -1px rgba(128,128,128,1); /* shadow */
+    
+    transition: box-shadow .1s ease-in-out;
+} 
+
+.button span {
+    background-color: #E8E8E8;
+    
+    background-image: 
+        /* gloss gradient */
+        -webkit-gradient(
+            linear, 
+            left bottom, 
+            left top, 
+            color-stop(50%,rgba(255,255,255,0)), 
+            color-stop(50%,rgba(255,255,255,0.3)), 
+            color-stop(100%,rgba(255,255,255,0.2))),
+        
+        /* dark outside gradient */
+        -webkit-gradient(
+            linear, 
+            left top, 
+            right top, 
+            color-stop(0%,rgba(210,210,210,0.3)), 
+            color-stop(20%,rgba(210,210,210,0)), 
+            color-stop(80%,rgba(210,210,210,0)), 
+            color-stop(100%,rgba(210,210,210,0.3))),
+        
+        /* light inner gradient */
+        -webkit-gradient(
+            linear, 
+            left top, 
+            right top, 
+            color-stop(0%,rgba(255,255,255,0)), 
+            color-stop(20%,rgba(255,255,255,0.5)), 
+            color-stop(80%,rgba(255,255,255,0.5)), 
+            color-stop(100%,rgba(255,255,255,0))),        
+        
+        /* diagonal line pattern */
+        -webkit-gradient(
+            linear, 
+            0% 100%, 
+            100% 0%, 
+            color-stop(0%,rgba(255,255,255,0)), 
+            color-stop(40%,rgba(255,255,255,0)), 
+            color-stop(40%,#D2D2D1), 
+            color-stop(60%,#D2D2D1), 
+            color-stop(60%,rgba(255,255,255,0)), 
+            color-stop(100%,rgba(255,255,255,0)));
+    
+        -webkit-box-shadow:
+            0px -1px #fff, /* top highlight */
+            0px 1px 1px #FFFFFF; /* bottom edge */
+    
+    -webkit-background-size: 100%, 100%, 100%, 4px 4px;
+    
+    -webkit-border-radius: 10px;
+    -webkit-transition: -webkit-transform .1s ease-in-out;
+    
+    display: inline-block;
+    padding: 10px 40px;
+    
+    color: #3A474D;
+    text-transform: uppercase;
+    font-family: 'TradeGothicLTStd-BdCn20','PT Sans Narrow';
+    font-weight: 700;
+    font-size: 32px;
+    
+    text-shadow: 0px 1px #fff, 0px -1px #262F33;
+}
+
+.button span:hover {
+    color: #AEBF3B;
+    text-shadow: 0px -1px #97A63A;
+    cursor: pointer;
+}
+
+.button:active {
+    -webkit-box-shadow: 
+        0px 3px rgba(128,128,128,1),
+        0px 4px rgba(118,118,118,1),
+        0px 5px rgba(108,108,108,1),
+        0px 6px rgba(98,98,98,1),
+        0px 7px rgba(88,88,88,1),
+        0px 8px rgba(78,78,78,1),
+        0px 10px 2px 0px rgba(128,128,128,.6); /* shadow */
+}
+
+.button:active span{
+    -webkit-transform: translate(0, 5px); /* depth of button press */
+}
+
+/*END button*/

@@ -1,0 +1,31 @@
+body {
+	width: 1300px;
+	margin: 40px auto;
+}
+.calc {
+	width: 300px; 
+	border: 5px solid #aeaeae;
+	padding: 20px;
+	float: left;
+	margin-left: 100px;
+}
+label {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+#final_price {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.card-images {
+	margin-left: 100px;
+	float: left;
+}
+.card-images img {
+	display: none;
+}
+#card_1_0 {
+	display: inline-block;
+}

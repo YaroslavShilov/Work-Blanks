@@ -1,0 +1,44 @@
+body {
+  background: #f35f55;
+  font-family: Arial;
+}
+.slider-container {
+  position: relative;
+  background-color: #fff;
+  height: 360px;
+  width: 600px;
+  margin: 20px auto;
+  border-bottom: 10px solid green;
+  overflow: hidden;
+}
+.slides {
+  height: 100%;
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+.slides li {
+  background-color: #ecf0f1;
+  display: table;
+  float: left;
+  height: 100%;
+}
+.slides li div {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 3em;
+}
+.buttons {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.buttons li {
+  display: inline-block;
+  margin: 10px;
+  cursor: pointer;
+}
+li.solid-bg {
+  background-color: #969899;
+}

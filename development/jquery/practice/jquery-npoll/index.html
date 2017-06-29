@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div id="mypoll"></div>
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/jquery.npoll.js"></script>
+	<script>
+		$("#mypoll").npoll({
+			question: "Ваш любимый браузер?", 
+			categories:["Chrome", "Firefox", "Opera", "IE6"]
+		}).addClass("Woo");
+	</script>
+	
+</body>
+</html>

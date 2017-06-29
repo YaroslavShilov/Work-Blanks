@@ -1,0 +1,9 @@
+mixin navigation(className, items, activeItem)
+	nav(class="#{className}")
+		.container
+			ul(class="#{className}__list")
+				each nav, ndx in items
+					li(class="#{className}__item" + ( (ndx == activeItem) ? ' #{className}__item_active' : '' ))
+						a(href="#" class="#{className}__link")= nav
+//- вызов
+	+navigation ('navigation', ['Главная', "Новости", "О компании", "Сравнение", "Корзина"], 2)

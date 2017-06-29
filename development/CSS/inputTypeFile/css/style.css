@@ -1,0 +1,23 @@
+body {
+	font-size: 28px;
+}
+.hide {
+	position: absolute;
+	overflow: hidden;
+	z-index: -1;
+	width: 0.1em;
+	height: 0.1em;
+	opacity: 0;
+}
+label {
+	display: inline-block;
+	cursor: pointer;
+	background-color: tomato;
+	padding: 15px 30px;
+	color: #fff;
+	box-shadow: 0 4px 3px 0px rgba(0,0,0, 0.3);
+	transition: box-shadow 0.2s;
+}
+label:hover {
+	box-shadow: 0 4px 5px 0px rgba(0,0,0, 0.6);
+}

@@ -1,0 +1,1 @@
+*{transition:all 0.3s ease;transform-origin:50% 50%}.left:hover ~ #icon{transform:rotate(-60deg)}.right:hover ~ #icon{transform:rotate(60deg)}

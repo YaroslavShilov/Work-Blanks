@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Плагин tooltip</title>
+</head>
+<body>
+	
+	<input type="text" id="search" title="Поисковый запрос..."> <button id="btn">Поиск</button>
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, possimus, optio, quaerat, iure neque velit architecto consectetur eligendi qui ea beatae ipsam quod recusandae voluptas tempora iusto quae praesentium! Voluptatum.</p>
+	<p>Voluptates, veniam eveniet quo temporibus aperiam laboriosam sapiente itaque magni repellat quibusdam facilis mollitia error a saepe quas voluptatem ipsa sed quis accusamus dolorem. Consequuntur nihil dolores ut necessitatibus mollitia.</p>
+
+	<ul>
+		<li>Item 1</li>
+		<li>Item 2</li>
+		<li>Item 3</li>
+		<li>Item 4</li>
+		<li>Item 5</li>
+	</ul>
+
+	<a href="#" title="Ссылка">Просто ссылка</a>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="jquery-tooltipdemo.js"></script>
+	<script>
+		$('input, a').ToolTipDemo('yellow', '#000');	
+	</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+body {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+.tab-menu {
+  padding: 0;
+}
+.tab-menu li {
+  list-style: none;
+  display: inline-block;
+  margin: 10px;
+  background: #ccc;
+  padding: 10px;
+  border: 1px solid blue;
+  cursor: pointer;
+  position: relative;
+}
+.tab-menu .active {
+  background: #fff;
+  border-color: black;
+}
+.line {
+  position: absolute;
+  width: 0%;
+  height: 7px;
+  background-color: red;
+  top: 0;
+  left: 0;
+}

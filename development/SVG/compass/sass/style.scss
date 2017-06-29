@@ -1,0 +1,19 @@
+/*coder site (верстальщик)
+ShilovYaroslavAndreevich
+shilovyaroslavandreevich@gmail.com*/
+
+* {
+	transition: all 0.3s ease-in-out;
+}
+
+.compass:hover {
+	cursor: pointer;
+	transform: rotate(-30deg);
+	.bg {
+		fill: #ccc;
+	}
+}
+
+
+
+

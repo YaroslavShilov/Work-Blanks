@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--[if lt IE 9]>
+	<script>
+			var e = ("article,aside,figcaption,figure,footer,header,hgroup,nav,section,time").split(',');
+			for (var i = 0; i < e.length; i++) {
+				document.createElement(e[i]);
+			}
+		</script>
+	<![endif]-->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="Теги сайта">
+	<meta name="description" content="Описание сайта">
+	<meta name="author" lang="ru" content="Yaroslav Shilov">
+
+	<link rel="shortcut icon" href="img/favicon.png">
+	<!-- type="image/x-icon" -->
+
+	<link rel="stylesheet" href="css/style.css">
+
+	<title>Doc</title>
+</head>
+<body>
+
+	<section id="main">
+		<div class="container">
+			<div class="calc">
+				<h2>Расчет стоимости</h2>
+
+				<label for="card_edition">Выберите тираж</label><br>
+				<select name="edition" id="card_edition">
+					<option value="90">90</option>
+					<option value="120">120</option>
+					<option value="150">150</option>
+					<option value="180">180</option>
+					<option value="210">210</option>
+					<option value="240">240</option>
+					<option value="270">270</option>
+					<option value="300">300</option>
+					<option value="360">360</option>
+					<option value="420">420</option>
+					<option value="510">510</option>
+					<option value="600">600</option>
+					<option value="900">900</option>
+					<option value="1020">1020</option>
+					<option value="1500">1500</option>
+					<option value="3000">3000</option>
+				</select>
+				<br>
+
+
+				<label for="card_paper">Выберите бумагу</label><br>
+				<select name="card_paper" id="card_paper" class="form-control">
+					<option data-paper-ratio="6.8" value="Мелованная">Мелованная</option>
+					<option data-paper-ratio="40.5" value="Повышенной белезны">Повышенной белезны</option>
+					<option data-paper-ratio="45" value="Лён">Лён</option>
+				</select>
+				<br>
+
+				
+				<label for="card_color">Выберите цветность</label><br>
+				<select name="card_color" id="card_color" class="form-control">
+    			<option data-print="14" data-print-file="110" data-color="1" value="Односторонняя черно-белая">Односторонняя черно-белая</option>
+    			<option data-print="28" data-print-file="220" data-color="2" value="Двусторонняя черно-белая">Двусторонняя черно-белая</option>
+    			<option data-print="37" data-print-file="110" data-color="3" value="Односторонняя цветная">Односторонняя цветная</option>
+    			<option data-print="51" data-print-file="220" data-color="4" value="Цветная с лицевой, ч/б с оборотной">Цветная с лицевой, ч/б с оборотной</option>
+    			<option data-print="74" data-print-file="220" data-color="5" value="Двусторонняя цветная">Двусторонняя цветная</option>
+    		</select>
+				<br>
+
+				<h4>
+					Стоимость за тираж
+				</h4>
+				<p>
+					<span id="final_price">0</span> руб.
+				</p>
+			</div>
+
+
+			<div class="card-images">
+				<img src="img/1_0.png" alt="" id="card_1_0">
+				<img src="img/1_1.png" alt="" id="card_1_1">
+				<img src="img/4_0.png" alt="" id="card_4_0">
+				<img src="img/4_1.png" alt="" id="card_4_1">
+				<img src="img/4_4.png" alt="" id="card_4_4">
+			</div>
+		</div>
+	</section>
+
+	<script src="js/jquery-1.12.4.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="Теги сайта">
+	<meta name="description" content="Описание сайта">
+	<meta name="author" lang="ru" content="Yaroslav Shilov">
+	
+	<link rel="shortcut icon" href="img/favicon.png">
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+	
+	<title>Doc</title>
+	<style>
+		/*Отключаем информацию о ролике*/
+		.controlBar_bgndVideo {
+			display: none;
+		}
+	</style>
+</head>
+<body>
+
+	<header style="height: 500px;">
+		<div id="bgndVideo" class="player"
+			data-property="{
+			videoURL: 'https://www.youtube.com/watch?v=JzWnl4eRiG0',
+			containment: 'header',
+			autoPlay: true,
+			mute: true,
+			startAt: 0,
+			opacity: 1
+			}"
+		>
+		containment: фон какого блока
+		mute: отключение звука
+		startAt: с какой секунды начать
+		opacity: прозрачность
+			
+		</div>
+		<div class="bg_container">
+			<h1>Заголовок</h1>
+		</div>
+	</header>
+
+
+	
+	
+
+	<div class="hidden"></div>
+
+	<!-- coder site (верстальщик)
+	ShilovYaroslavAndreevich
+	workyarik@gmail.com -->
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+
+	<script src="libs/jquery/jquery-1.12.4.min.js"></script>
+	<script src='libs/jquery.mb.YTPlayer.min.js'></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

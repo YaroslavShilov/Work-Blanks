@@ -1,0 +1,61 @@
+$browser-context: 16; // Default
+
+@function em($pixels, $context: $browser-context) {
+  @return #{$pixels/$context}em;
+}
+
+
+@mixin placecolor($color: #000000) {
+	&::-webkit-input-placeholder {
+		color: $color;
+	}
+	&:-moz-placeholder {
+		color: $color;
+	}
+	&::-moz-placeholder {
+		color: $color;
+	}
+	&:-ms-input-placeholder {
+		color: $color;
+	}
+}
+
+@mixin vertical-gradient($top-color: #ffffff, $bottom-color: #000000) {
+	background-color: $top-color;
+	background-image: -webkit-gradient(linear, left top, left bottom, from($top-color), to($bottom-color)); /* Chrome, Safari 4+ */
+	background-image: -webkit-linear-gradient(top, $top-color, $bottom-color); /* Chrome 10-25, iOS 5+, Safari 5.1+ */
+	background-image: -moz-linear-gradient(top, $top-color, $bottom-color); /* Firefox 3.6-15 */
+	background-image: -o-linear-gradient(top, $top-color, $bottom-color); /* Opera 11.10-12.00 */
+	background-image: linear-gradient(to bottom, $top-color, $bottom-color); /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=$top-color, EndColorStr=$bottom-color);
+}
+
+@mixin horizontal-gradient($left-color: #ffffff, $right-color: #000000) {
+	background: -webkit-linear-gradient(left, $left-color 0%, $right-color 100%);
+	background: -moz-linear-gradient(left, $left-color 0%, $right-color 100%);
+	background: -ms-linear-gradient(left, $left-color 0%, $right-color 100%);
+	background: -o-linear-gradient(left, $left-color 0%, $right-color 100%);
+	background: linear-gradient(left, $left-color 0%, $right-color 100%);
+}
+
+@mixin absolute-center {
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	position: absolute;
+}
+
+@mixin position($type, $top, $right, $bottom, $left) {
+	top: $top;
+	left: $left;
+	right: $right;
+	bottom: $bottom;
+	position: $type;
+}
+
+@mixin size($size) {
+	width: $size;
+	height: $size;
+}

@@ -1,0 +1,19 @@
+@import "basic";
+
+.wrapper {
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+h1 {
+	font-size: 18px;
+	padding: 5px;
+	margin: 10px;
+	background-color: #ccc;
+	border-radius: 8px 8px 0 0; 
+	cursor: pointer;
+	&:hover {
+		background-color: rgba(#ccc, 0.6);
+	};
+}

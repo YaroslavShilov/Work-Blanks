@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Плагин Basic Modal</title>
+	<!-- Page styles -->
+<link type='text/css' href='css/demo.css' rel='stylesheet' media='screen' />
+
+<!-- Contact Form CSS files -->
+<link type='text/css' href='css/basic.css' rel='stylesheet' media='screen' />
+
+<!-- IE6 "fix" for the close png image -->
+<!--[if lt IE 7]>
+<link type='text/css' href='css/basic_ie.css' rel='stylesheet' media='screen' />
+<![endif]-->
+
+<!-- JS files are loaded at the bottom of the page -->
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="js/jquery.simplemodal.js"></script>
+	
+</head>
+<body>
+	
+	<input type="text" id="search"> <button id="btn">Поиск</button>
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, possimus, optio, quaerat, iure neque velit architecto consectetur eligendi qui ea beatae ipsam quod recusandae voluptas tempora iusto quae praesentium! Voluptatum.</p>
+	<p>Voluptates, veniam eveniet quo temporibus aperiam laboriosam sapiente itaque magni repellat quibusdam facilis mollitia error a saepe quas voluptatem ipsa sed quis accusamus dolorem. Consequuntur nihil dolores ut necessitatibus mollitia.</p>
+	
+	
+
+	<ul>
+		<li>Item 1</li>
+		<li>Item 2</li>
+		<li>Item 3</li>
+		<li>Item 4</li>
+		<li>Item 5</li>
+	</ul>
+
+	<a href="#">Просто ссылка</a>
+
+	<button id="modal">Открыть окно</button>
+	<script>
+		$(document).ready(function() {
+			$('#modal').click(function (e) {
+				$('#basic-modal-content').modal();
+
+				return false;
+			});
+		});
+	</script>
+	<div id="basic-modal-content">
+		<p>Модальное окно</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, iste, molestiae, dicta animi iure sunt voluptatum dignissimos aspernatur vitae quaerat ratione veniam ut debitis ad sed aliquam laudantium velit earum!</p>
+	</div>
+
+	
+</body>
+</html>

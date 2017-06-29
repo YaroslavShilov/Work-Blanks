@@ -1,0 +1,98 @@
+@import "basic";
+
+body {
+	width: 380px;
+	height: 520px;
+	margin: 0 auto;
+}
+label {
+	cursor: pointer;
+}
+header .cont {
+	background-color: #374139;
+	border-bottom: 1px solid #242720;
+	color: #D9DCD5;
+	font-size: 20px;
+	padding: 14px 0 18px 10px;
+	text-shadow: 0 1px 1px #000;
+}
+header .desc {
+	background-color: #E7E4DB;
+	color: #61605B;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 7px 0 4px 11px;
+	border-top: 1px solid #858680;
+	border-bottom: 1px solid #B8B8B6;
+}
+.options {
+	background-color: #F8F5EE;
+}
+.option-block {
+	border-bottom: 1px solid #E5E2DB;
+	padding: 10px; 
+}
+.input {
+	display: none;
+}
+.check {
+	display: inline-block;
+	width: 57px;
+	height: 41px;
+	background-color: #F3F0EA;
+	border-radius: 5px;
+	box-shadow: inset 0 0 1px 1px rgba(#000, 0.1);
+	cursor: pointer;
+	position: relative;
+	float: right;
+	&:after {
+		content: "Off";
+		position: absolute;
+		width: 33px;
+		height: 26px;
+		background-color: #F9F6F1;
+		border-radius: 5px;
+		border: 1px solid #D7D7CF;
+		box-shadow: inset 0 -2px 5px 0px rgba(#000, 0.1);
+		top: 2px;
+		left: 2px;
+		color: #464644;
+		font-weight: bold;
+		padding-top: 8px;
+		text-align: center;
+		transition: left 0.2s;
+	};
+	&:before {
+		content: "";
+		width: 30px;
+		height: 34px;
+		position: absolute;
+		display: inline-block;
+		border-radius: 5px;
+		box-shadow: inset 0 -2px 5px 0px rgba(#000, 0.1);
+		top: 3px;
+		left: 4px;
+		transition: background-color 1s;
+	};
+}
+.input:checked + .check {
+	&:after {
+		content:"On";
+		left: 19px;
+	};
+	&:before {
+		background-color: #B64904;
+	}
+}
+
+.text	{
+	font-weight: bold;
+	font-size: 18px;
+	color: #504F4B;
+	margin-top: 10px;
+	display: inline-block;
+}
+
+/*coder site (верстальщик)
+ShilovYaroslavAndreevich
+workyarik@gmail.com*/
