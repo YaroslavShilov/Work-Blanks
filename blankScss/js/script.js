@@ -26,3 +26,8 @@ window.onload = function() {
 	document.querySelector('.loader').style.display = "none"
 }
 //END loader
+
+//BEGIN copyright
+var copyYear = new Date();
+document.getElementById('copy').innerHTML = copyYear.getFullYear()
+//END copyright
