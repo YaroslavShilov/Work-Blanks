@@ -1,0 +1,8 @@
+mixin nav(className, items, activeItem)
+	nav(class=className)
+		ul
+			each nav, ndx in items
+				li(class= className+"_item" + ( (ndx == activeItem) ? ".active" : '' ))
+					a(href="#")= nav
+//- вызов
+	+nav ('nav', ['Главная', "Новости", "О компании", "Сравнение", "Корзина"], 2)

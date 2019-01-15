@@ -1,9 +1,0 @@
-
-h1 {
-	text-align: center;
-	color: blue;
-}
-hr {
-	height: 40px;
-	color: currentColor; /*Наследует цвет текста*/
-}

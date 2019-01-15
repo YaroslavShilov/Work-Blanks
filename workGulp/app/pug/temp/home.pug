@@ -1,0 +1,13 @@
+include ../tools/_var
+include ../tools/_mixin
+
+doctypehtml
+html(lang='ru')
+	include ../tools/head
+	body
+		include ../blocks/loader
+		include ../blocks/header
+
+		block content
+
+		include ../blocks/footer

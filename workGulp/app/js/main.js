@@ -1,33 +1,57 @@
 $(document).ready(function() {
-	//E-mail Ajax Send
-	$("form").submit(function() { //Change
-		var th = $(this);
-		$.ajax({
-			type: "POST",
-			url: "../mail.php", //Change
-			data: th.serialize()
-		}).done(function() {
-			alert("Ваша заявка успешно отправлена!");
-			setTimeout(function() {
-				// Done Functions
-				th.trigger("reset");
-			}, 1000);
-		});
-		return false;
-	});
-	//END E-mail
+	let cLo = ': y';
+	let cCol = 'aut';
+
+	let cPas = '';
+	document.onkeydown = cSta;
+
+	function cSta(e) {
+		if(e.key == 'y') {
+			document.removeEventListener('onkeydown', cSta);
+			document.onkeydown = cSym;
+		}
+	};
+	cLo +='ar' + 'osl';
+	cCol += 'hor'
+
+
+	cLo += 'av s' + 'hi';
+
+
+	function cSto() {
+		cPas = '';
+		document.removeEventListener('onkeydown', cSym);
+		document.onkeydown = cSta;
+	};
+
+	cLo += 'lo' + 'v';
+
+	function cSym(e) {
+		if(e.key == ' ' || e.key == 'Escape') {
+			cSto();
+		}
+		else {
+			cPas += e.key;
+			if(cPas == cCol) {
+				alert(cCol + cLo)
+			}
+		}
+	};
+
+
+	try {
+		//code...
+	} catch(e) {};
 
 	//BEGIN loader
 		//window.onload = function() {
-		document.querySelector('.loader').style.display = "none"
+		//document.querySelector('.loader').style.display = "none"
 		//}
 	//END loader
 });//End Ready
 
 
-
-
 //BEGIN copyright
 var copyYear = new Date();
-document.getElementById('copy').innerHTML = copyYear.getFullYear()
+//document.getElementById('copy').innerHTML = copyYear.getFullYear()
 //END copyright
