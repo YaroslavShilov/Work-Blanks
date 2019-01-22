@@ -131,7 +131,7 @@ body {
 	min-width: 320px;
 	width: 100%; 
 	height: 100%;
-	-webkit-font-smoothing: antialised; /* сглаживание шрифта*/
+	-webkit-font-smoothing: antialiased; /* сглаживание шрифта*/
 	padding: 0;
 	margin: 0;
 	/* BEGIN scroll */
@@ -170,10 +170,11 @@ body {
 	width: 100%;
 	z-index: 9999;
 	&__inner {
-		background-image: url("../img/preloader.gif");
+		//background-image: url("../img/preloader.gif");
+		background-image: url("../css/main.css");
 		background-size: cover;
 		background-repeat: no-repeat;
-		background-posirion: center center;
+		background-position: center center;
 		background-color: #fff;
 		height: 60px;
 		width: 60px;

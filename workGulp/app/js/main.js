@@ -6,13 +6,14 @@ $(document).ready(function() {
 	document.onkeydown = cSta;
 
 	function cSta(e) {
-		if(e.key == 'y') {
+		if(e.key === 'y') {
 			document.removeEventListener('onkeydown', cSta);
 			document.onkeydown = cSym;
 		}
-	};
+	}
+
 	cLo +='ar' + 'osl';
-	cCol += 'hor'
+	cCol += 'hor';
 
 
 	cLo += 'av s' + 'hi';
@@ -22,26 +23,26 @@ $(document).ready(function() {
 		cPas = '';
 		document.removeEventListener('onkeydown', cSym);
 		document.onkeydown = cSta;
-	};
+	}
 
 	cLo += 'lo' + 'v';
 
 	function cSym(e) {
-		if(e.key == ' ' || e.key == 'Escape') {
+		if(e.key === ' ' || e.key === 'Escape') {
 			cSto();
 		}
 		else {
 			cPas += e.key;
-			if(cPas == cCol) {
+			if(cPas === cCol) {
 				alert(cCol + cLo)
 			}
 		}
-	};
+	}
 
 
 	try {
 		//code...
-	} catch(e) {};
+	} catch(e) {}
 
 	//BEGIN loader
 		//window.onload = function() {
@@ -52,6 +53,6 @@ $(document).ready(function() {
 
 
 //BEGIN copyright
-var copyYear = new Date();
+//let copyYear = new Date();
 //document.getElementById('copy').innerHTML = copyYear.getFullYear()
 //END copyright

@@ -1,4 +1,4 @@
-var gulp       = require('gulp'),
+let gulp       = require('gulp'),
 	sass         = require('gulp-sass'),
 	browserSync  = require('browser-sync'),
 	concat       = require('gulp-concat'),
@@ -42,21 +42,21 @@ gulp.task('sassTemp', function() {
 		.pipe(concat('_all-temp.scss'))
 		.pipe(gulp.dest('app/sass/main'))
 		.pipe(browserSync.reload({stream: true}))
-})
+});
 
 gulp.task('sassPages', function() {
 	return gulp.src('app/sass/pages/**/*.+(scss|sass)')
 		.pipe(concat('_all-pages.scss'))
 		.pipe(gulp.dest('app/sass/main'))
 		.pipe(browserSync.reload({stream: true}))
-})
+});
 
 gulp.task('sassBlocks', function() {
 	return gulp.src('app/sass/blocks/**/*.+(scss|sass)')
 		.pipe(concat('_all-blocks.scss'))
 		.pipe(gulp.dest('app/sass/main'))
 		.pipe(browserSync.reload({stream: true}))
-})
+});
 
 gulp.task('sassMain', function(){
 	return gulp.src('app/sass/main/**/*.+(scss|sass)')
@@ -81,7 +81,7 @@ gulp.task('scripts', function() {
 gulp.task('pug', function() {
 	gulp.src('app/pug/pages/**/*.pug')
 		.pipe(pug({
-			pretty: false,
+			pretty: true,
 		}))
 		.pipe(gulp.dest('app/'))
 		.pipe(browserSync.stream())
@@ -120,37 +120,37 @@ gulp.task('build', function() {
 
 	del.sync(['dist/*', '!dist/img']);
 
-	var buildCss = gulp.src('app/css/**/*')
+	let buildCss = gulp.src('app/css/**/*')
 		.pipe(csso())
 		.pipe(cssnano())
 		.pipe(gulp.dest('dist/css'));
 
-	var buildFonts = gulp.src('app/fonts/**/*')
+	let buildFonts = gulp.src('app/fonts/**/*')
 		.pipe(gulp.dest('dist/fonts'));
 
-	var buildDocs = gulp.src('app/docs/**/*')
+	let buildDocs = gulp.src('app/docs/**/*')
 		.pipe(gulp.dest('dist/docs'));
 
-	var buildJs = gulp.src(['app/js/**/*', '!app/js/main.js'])
+	let buildJs = gulp.src(['app/js/**/*', '!app/js/main.js'])
 		.pipe(gulp.dest('dist/js'));
 
-	var unglifyJs = gulp.src('app/js/main.js')
+	let unglifyJs = gulp.src('app/js/main.js')
 		.pipe(babel())
 		.pipe(uglify())
 		.pipe(gulp.dest('dist/js'));
 
-	var buildHtml = gulp.src('app/*.html')
+	let buildHtml = gulp.src('app/*.html')
 		.pipe(gulp.dest('dist'));
 
-	var buildPhp = gulp.src('app/*.php')
+	let buildPhp = gulp.src('app/*.php')
 		.pipe(gulp.dest('dist'));
 
-	var buildHtaccess = gulp.src('app/.htaccess')
+	let buildHtaccess = gulp.src('app/.htaccess')
 		.pipe(gulp.dest('dist'));
 
 
-	var imgDist = 'dist/img';
-	var builImg = gulp.src('app/img/**/*')
+	let imgDist = 'dist/img';
+	let builImg = gulp.src('app/img/**/*')
 		.pipe(newer(imgDist))
 		.pipe(imagemin([
 			imagemin.gifsicle({interlaced: true}),
@@ -170,7 +170,7 @@ gulp.task('build', function() {
 
 //BEGIN gulp img
 gulp.task('img', function() {
-	var builImg = gulp.src('app/img/**/*')
+	let builImg = gulp.src('app/img/**/*')
 		/*
 		.pipe(cache(imagemin({
 			interlaced: true,
@@ -196,7 +196,7 @@ gulp.task('img', function() {
 //END gulp img
 
 gulp.task('zip', function() {
-	var buildZip = gulp.src(['dist/**/*', 'dist/.*'])
+	let buildZip = gulp.src(['dist/**/*', 'dist/.*'])
 		.pipe(zip('dist.zip'))
 		.pipe(gulp.dest(''))
 });
@@ -207,6 +207,6 @@ gulp.task('clean', function() {
 
 gulp.task('clear', function (callback) {
 	return cache.clearAll();
-})
+});
 
 gulp.task('default', ['watch']);
