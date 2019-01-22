@@ -3,4 +3,5 @@
 package-lock.json
 #ignore
 .gitignore
-.idea
+#phpstorm
+.idea/
