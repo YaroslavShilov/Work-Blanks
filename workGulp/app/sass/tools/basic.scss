@@ -13,50 +13,19 @@ body textarea:required:valid {
   //color: blue; //цвет текста когда печатаешь
 }
 
-/* BEGIN placeholder */
-body input::-webkit-input-placeholder {
-  color: #9a9a9a;
-}
-
-body input:-moz-placeholder {
-  color: #9a9a9a;
-}
-
-body input::-moz-placeholder {
-  color: #9a9a9a;
-}
-
-body input:-ms-input-placeholder {
-  color: #9a9a9a;
-}
-
-body textarea::-webkit-input-placeholder {
-  color: #9a9a9a;
-}
-
-body textarea:-moz-placeholder {
-  color: #9a9a9a;
-}
-
-body textarea::-moz-placeholder {
-  color: #9a9a9a;
-}
-
-body textarea:-ms-input-placeholder {
-  color: #9a9a9a;
-}
-/* END placeholder */
 
 address,
 blockquote,
 figure,
 figcaption,
 main,
-details {
+details,
+fieldset {
+	display: block;
+	border: 0;
 	font-style: normal;
 	margin: 0;
 	padding: 0;
-	display: block;
 }
 
 p {
@@ -93,23 +62,18 @@ img {
 }
 
 input,textarea {
+	@include placecolor($subtext);
 	outline: none;
 	&:focus {
 		outline: none;
 	}
 }
 
-/* 
-*,
-*:before,
-*:after {
+body *,
+body *:before,
+body *:after {
 	box-sizing: border-box;
-} 
-*/
-
-* {
-	box-sizing: border-box;
-} 
+}
 
 h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
@@ -171,7 +135,6 @@ body {
 	z-index: 9999;
 	&__inner {
 		//background-image: url("../img/preloader.gif");
-		background-image: url("../css/main.css");
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center center;
