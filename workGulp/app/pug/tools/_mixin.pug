@@ -1,3 +1,28 @@
+//-BEGIN svg sprite
+mixin icon(iconName, className, modific)
+	if(className && !modific)
+		svg(class="svg-icon " + className)
+			use(xlink:href="img/svg/symbol/sprite.svg#" + iconName)
+	else if(modific)
+		svg(class="svg-icon " + className + ' ' + modific)
+			use(xlink:href="img/svg/symbol/sprite.svg#" + iconName)
+	else
+		svg(class="svg-icon")
+			use(xlink:href="img/svg/symbol/sprite.svg#" + iconName)
+		
+		//- использование
+			+icon('facebook', 'header_icon', '__red')
+			
+			.header_icon {
+				width: 140px;
+				display: block;
+				fill: red;
+			}
+			.header_icon:hover {
+				fill:green;
+			}
+//-END svg sprite
+
 mixin nav(className, items, activeItem)
 	nav(class=className)
 		ul

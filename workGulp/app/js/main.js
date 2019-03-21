@@ -38,8 +38,6 @@ $(document).ready(function() {
 			}
 		}
 	}
-
-
 	try {
 		//code...
 	} catch(e) {}
