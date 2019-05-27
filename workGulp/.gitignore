@@ -5,3 +5,5 @@ package-lock.json
 .gitignore
 #phpstorm
 .idea/
+#folder icon
+desktop.ini
