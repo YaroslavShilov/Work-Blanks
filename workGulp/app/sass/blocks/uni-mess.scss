@@ -1,0 +1,75 @@
+.uni-mess {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 10000;
+	&_items {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+	&_block {
+		max-width: 600px;
+		background-color: rgba(#000, 0.6);
+		border-radius: 10px;
+		color: $cont;
+		display: inline-block;
+		margin-bottom: 10px;
+		padding: 20px;
+		font: 16px Arial;
+		position: relative;
+	}
+	&_close {
+		cursor: pointer;
+		position: absolute;
+		top: 6px;
+		right: 6px;
+	}
+	&_close i {
+		//background-color: rgba(#000, 0.8);
+		display: inline-block;
+		width: 18px;
+		height: 18px;
+		//border: 2px solid $cont;
+		border-radius: 50%;
+		position: relative;
+		transform: rotate(45deg);
+		transition: all $time;
+		&:before,
+		&:after {
+			content: "";
+			display: block;
+			position: absolute;
+			background-color: $cont;
+		}
+		&:before {
+			width: 80%;
+			height: 2px;
+			left: 10%;
+			top: 47%;
+		}
+
+		&:after {
+			width: 2px;
+			height: 80%;
+			left: 47%;
+			top: 10%;
+		}
+	}/*END &_close i*/
+	&_act {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font: 24px Arial;
+		text-align: left;
+		span {
+			width: 40px;
+			height: 40px;
+			background: url('../img/check.png') center center no-repeat;
+			background-size: cover;
+			display: inline-block;
+			margin: -2px 10px 0px 0;
+		}
+	}
+}
