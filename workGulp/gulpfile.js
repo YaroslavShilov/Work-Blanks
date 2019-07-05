@@ -61,7 +61,7 @@ gulp.task('sassBlocks', function() {
 gulp.task('sassMain', function() {
 	return gulp.src('app/sass/main/**/*.+(scss|sass)')
 		.pipe(sass())
-		.pipe(autoprefixer(['last 15 versions', '> 1%', 'ie 10'], { cascade: true }))
+		.pipe(autoprefixer(['last 10 versions', '> 1%', 'ie 11'], { cascade: true }))
 		.pipe(gulp.dest('app/css'))
 		.pipe(browserSync.reload({stream: true}))
 });

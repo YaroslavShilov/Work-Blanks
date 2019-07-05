@@ -4,9 +4,9 @@
       "targets": {
         "node": "current",
         "firefox": "60",
-        "chrome": "58",
-        "safari": "5.1.7",
-        "ie": "9"
+        "chrome": "67",
+        "safari": "11.1",
+        "ie": "11"
       }
     }]
   ]

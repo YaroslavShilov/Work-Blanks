@@ -393,19 +393,19 @@ template {
 [hidden] {
   display: none; }
 
-.hidden {
+.vis-hidd {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  clip: rect(0 0 0 0); }
+
+.hidd {
   display: none; }
 
 .overflow {
   overflow: hidden !important;
   position: relative !important; }
-
-.opacity {
-  opacity: 0;
-  -webkit-transition: opacity 0.8s ease-in-out;
-  transition: opacity 0.8s ease-in-out; }
-  .opacity.active {
-    opacity: 1; }
 
 .clearfix:after, .clearfix:before {
   content: "";
