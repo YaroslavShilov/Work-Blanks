@@ -1,9 +1,29 @@
+# Template for building difficult websites
+
+## Use:
+  1. HTML (PUG)
+  2. CSS (SCSS)
+  3. JS (+jQuery)
+  4. Gulp
+  5. SVG (+sprites)
+
+## Class naming
+```
 .block
 .block_elem
 .block_elem.__modificator
+```
 
-
+## SCSS Organize
+```
 .block {
+  /* Inheritance */
+  @extend
+  @mixin, e.g. clearfix
+
+  /* Generated content */
+  content: "";
+
   /* Positioning */
   position: fixed;
   top: 0;
@@ -11,6 +31,9 @@
   bottom: 0;
   left: 0;
   z-index: 100;
+  Flexbox properties
+  float
+  clear
 
   /* Block model */
   display: inline-block;
@@ -41,3 +64,4 @@
   /* Other */
   will-change: auto;
 }
+```
