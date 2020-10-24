@@ -1,1 +1,0 @@
-# Template for building simple websites using HTML + SCSS

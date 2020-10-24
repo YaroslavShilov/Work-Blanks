@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6975ec24-5224-45e8-b878-4af6ef79d07b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/GulpProject/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/.bowerrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/fonts/BebasNeue-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/img/check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/img/favicon/favicon-96x96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/img/svg/bg/bg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/img/svg/icons/check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/img/svg/symbol/sprite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/js/html5shiv/es5-shim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/js/html5shiv/html5shiv-printshiv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/js/html5shiv/html5shiv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/js/libs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/js/respond/respond.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/libs/1.jquery/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/pug/blocks/footer.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/pug/blocks/header.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/pug/blocks/loader.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/pug/blocks/nav.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/pug/blocks/search.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/pug/blocks/uni-mess.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/pug/pages/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/pug/temp/home.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/pug/tools/_mixin.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/pug/tools/_var.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/pug/tools/head.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/sass/blocks/footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/sass/blocks/header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/sass/blocks/uni-mess.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/sass/main/_all-blocks.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/sass/main/_all-libs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/sass/main/_all-media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/sass/main/_all-pages.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/sass/main/_all-temp.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/sass/main/_all-tools.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/sass/main/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/sass/media/media_1200.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/sass/media/media_430.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/sass/media/media_576.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/sass/media/media_768.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/sass/media/media_992.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/sass/pages/home.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/sass/temp/temp.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/sass/tools/basic.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/sass/tools/fonts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/sass/tools/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/sass/tools/normalize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/sass/tools/vars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/app/uniMess.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/dist/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/dist/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/dist/fonts/BebasNeue-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/dist/img/check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/dist/img/favicon/favicon-96x96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/dist/img/svg/bg/bg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/dist/img/svg/icons/check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/dist/img/svg/symbol/sprite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/dist/js/html5shiv/es5-shim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/dist/js/html5shiv/html5shiv-printshiv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/dist/js/html5shiv/html5shiv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/dist/js/libs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/dist/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/dist/js/respond/respond.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/dist/mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/dist/uniMess.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GulpProject/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workEmail/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workEmail/.bowerrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workEmail/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workEmail/app/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workEmail/app/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workEmail/app/pug/blocks/footer.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workEmail/app/pug/blocks/header.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workEmail/app/pug/pages/index.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workEmail/app/pug/temp/home.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workEmail/app/sass/basic.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workEmail/app/sass/blocks.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workEmail/app/sass/foundation/components/alignment.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workEmail/app/sass/foundation/components/callout.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workEmail/app/sass/foundation/components/media-query.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workEmail/app/sass/foundation/components/menu.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workEmail/app/sass/foundation/components/normalize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workEmail/app/sass/foundation/components/outlook-first.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workEmail/app/sass/foundation/components/thumbnail.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workEmail/app/sass/foundation/components/typography.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workEmail/app/sass/foundation/components/visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workEmail/app/sass/foundation/global.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workEmail/app/sass/foundation/grid/block-grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workEmail/app/sass/foundation/grid/grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workEmail/app/sass/foundation/settings/settings.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workEmail/app/sass/foundation/util/util.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workEmail/app/sass/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workEmail/app/sass/media.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workEmail/app/sass/pages.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workEmail/app/sass/vars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workEmail/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workEmail/gulpfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workEmail/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/.bowerrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/fonts/BebasNeue-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/img/check.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/img/favicon/favicon-96x96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/img/svg/bg/bg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/img/svg/icons/check.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/img/svg/symbol/sprite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/js/html5shiv/es5-shim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/js/html5shiv/html5shiv-printshiv.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/js/html5shiv/html5shiv.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/js/libs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/js/respond/respond.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/libs/1.jquery/jquery-3.2.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/mail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/pug/blocks/footer.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/pug/blocks/header.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/pug/blocks/loader.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/pug/blocks/nav.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/pug/blocks/search.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/pug/blocks/uni-mess.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/pug/pages/index.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/pug/temp/home.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/pug/tools/_mixin.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/pug/tools/_var.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/pug/tools/head.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/sass/blocks/footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/sass/blocks/header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/sass/blocks/uni-mess.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/sass/main/_all-blocks.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/sass/main/_all-libs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/sass/main/_all-media.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/sass/main/_all-pages.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/sass/main/_all-temp.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/sass/main/_all-tools.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/sass/main/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/sass/media/media_1200.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/sass/media/media_430.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/sass/media/media_576.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/sass/media/media_768.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/sass/media/media_992.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/sass/pages/home.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/sass/temp/temp.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/sass/tools/basic.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/sass/tools/fonts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/sass/tools/mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/sass/tools/normalize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/sass/tools/vars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/app/uniMess.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/gulpfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workGulp/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/0e9753380bd501e8e8906ef3986f71e8a40e1cc5/_asset-pipeline.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/0e9753380bd501e8e8906ef3986f71e8a40e1cc5/_deprecation-warnings.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/0e9753380bd501e8e8906ef3986f71e8a40e1cc5/_prefixer.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/0e9753380bd501e8e8906ef3986f71e8a40e1cc5/_px-to-em.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/1b7bd69afc642749d65fbd586c44d5a01dddf86c/_convert-units.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/1b7bd69afc642749d65fbd586c44d5a01dddf86c/_directional-values.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/1b7bd69afc642749d65fbd586c44d5a01dddf86c/_font-source-declaration.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/1b7bd69afc642749d65fbd586c44d5a01dddf86c/_gradient-positions-parser.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/1b7bd69afc642749d65fbd586c44d5a01dddf86c/_linear-angle-parser.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/1b7bd69afc642749d65fbd586c44d5a01dddf86c/_linear-gradient-parser.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/1b7bd69afc642749d65fbd586c44d5a01dddf86c/_linear-positions-parser.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/1b7bd69afc642749d65fbd586c44d5a01dddf86c/_linear-side-corner-parser.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/1b7bd69afc642749d65fbd586c44d5a01dddf86c/_radial-arg-parser.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/1b7bd69afc642749d65fbd586c44d5a01dddf86c/_radial-gradient-parser.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/1b7bd69afc642749d65fbd586c44d5a01dddf86c/_radial-positions-parser.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/1b7bd69afc642749d65fbd586c44d5a01dddf86c/_render-gradients.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/1b7bd69afc642749d65fbd586c44d5a01dddf86c/_shape-size-stripper.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/1b7bd69afc642749d65fbd586c44d5a01dddf86c/_str-to-num.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/2018f465e5fa79827e9c251c8a33157103abed15/_bourbon-deprecate.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/2018f465e5fa79827e9c251c8a33157103abed15/_bourbon-deprecated-upcoming.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/2018f465e5fa79827e9c251c8a33157103abed15/_bourbon.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/27d8b9ef6ed0ff08748c4924479506c921296f0f/_basic.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/27d8b9ef6ed0ff08748c4924479506c921296f0f/_mixins.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/27d8b9ef6ed0ff08748c4924479506c921296f0f/_normalize.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/27d8b9ef6ed0ff08748c4924479506c921296f0f/ie.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/27d8b9ef6ed0ff08748c4924479506c921296f0f/media.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/27d8b9ef6ed0ff08748c4924479506c921296f0f/print.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/27d8b9ef6ed0ff08748c4924479506c921296f0f/screen.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/27d8b9ef6ed0ff08748c4924479506c921296f0f/style.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/2f448d66d5b5b971c5f67508b92e48075b731716/_basic.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/2f448d66d5b5b971c5f67508b92e48075b731716/_mixins.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/2f448d66d5b5b971c5f67508b92e48075b731716/_normalize.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/2f448d66d5b5b971c5f67508b92e48075b731716/style.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/5930fb808febc8ca4c1b0f6911a053a6a0b501b5/_animation.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/5930fb808febc8ca4c1b0f6911a053a6a0b501b5/_appearance.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/5930fb808febc8ca4c1b0f6911a053a6a0b501b5/_backface-visibility.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/5930fb808febc8ca4c1b0f6911a053a6a0b501b5/_background-image.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/5930fb808febc8ca4c1b0f6911a053a6a0b501b5/_background.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/5930fb808febc8ca4c1b0f6911a053a6a0b501b5/_border-image.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/5930fb808febc8ca4c1b0f6911a053a6a0b501b5/_calc.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/5930fb808febc8ca4c1b0f6911a053a6a0b501b5/_columns.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/5930fb808febc8ca4c1b0f6911a053a6a0b501b5/_filter.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/5930fb808febc8ca4c1b0f6911a053a6a0b501b5/_flex-box.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/5930fb808febc8ca4c1b0f6911a053a6a0b501b5/_font-face.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/5930fb808febc8ca4c1b0f6911a053a6a0b501b5/_font-feature-settings.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/5930fb808febc8ca4c1b0f6911a053a6a0b501b5/_hidpi-media-query.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/5930fb808febc8ca4c1b0f6911a053a6a0b501b5/_hyphens.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/5930fb808febc8ca4c1b0f6911a053a6a0b501b5/_image-rendering.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/5930fb808febc8ca4c1b0f6911a053a6a0b501b5/_keyframes.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/5930fb808febc8ca4c1b0f6911a053a6a0b501b5/_linear-gradient.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/5930fb808febc8ca4c1b0f6911a053a6a0b501b5/_perspective.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/5930fb808febc8ca4c1b0f6911a053a6a0b501b5/_placeholder.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/5930fb808febc8ca4c1b0f6911a053a6a0b501b5/_radial-gradient.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/5930fb808febc8ca4c1b0f6911a053a6a0b501b5/_selection.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/5930fb808febc8ca4c1b0f6911a053a6a0b501b5/_text-decoration.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/5930fb808febc8ca4c1b0f6911a053a6a0b501b5/_transform.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/5930fb808febc8ca4c1b0f6911a053a6a0b501b5/_transition.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/5930fb808febc8ca4c1b0f6911a053a6a0b501b5/_user-select.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/5d164c5bf06f526f32252f40098969d35e3fac6f/_border-color.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/5d164c5bf06f526f32252f40098969d35e3fac6f/_border-radius.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/5d164c5bf06f526f32252f40098969d35e3fac6f/_border-style.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/5d164c5bf06f526f32252f40098969d35e3fac6f/_border-width.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/5d164c5bf06f526f32252f40098969d35e3fac6f/_buttons.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/5d164c5bf06f526f32252f40098969d35e3fac6f/_clearfix.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/5d164c5bf06f526f32252f40098969d35e3fac6f/_ellipsis.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/5d164c5bf06f526f32252f40098969d35e3fac6f/_font-stacks.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/5d164c5bf06f526f32252f40098969d35e3fac6f/_hide-text.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/5d164c5bf06f526f32252f40098969d35e3fac6f/_margin.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/5d164c5bf06f526f32252f40098969d35e3fac6f/_padding.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/5d164c5bf06f526f32252f40098969d35e3fac6f/_position.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/5d164c5bf06f526f32252f40098969d35e3fac6f/_prefixer.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/5d164c5bf06f526f32252f40098969d35e3fac6f/_retina-image.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/5d164c5bf06f526f32252f40098969d35e3fac6f/_size.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/5d164c5bf06f526f32252f40098969d35e3fac6f/_text-inputs.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/5d164c5bf06f526f32252f40098969d35e3fac6f/_timing-functions.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/5d164c5bf06f526f32252f40098969d35e3fac6f/_triangle.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/5d164c5bf06f526f32252f40098969d35e3fac6f/_word-wrap.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/Users/Yaroslav/Desktop/blank/sass/_basic.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/8b1de0fb964996dfca872842620703baaa5efa9b/_utilities.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/967535771e076fef2db89b49a50a5f291da89533/_basic.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/967535771e076fef2db89b49a50a5f291da89533/_mixins.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/967535771e076fef2db89b49a50a5f291da89533/media.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/967535771e076fef2db89b49a50a5f291da89533/style.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/bbc03d4777e5bd65214717db37d44f0b3b043364/_assign-inputs.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/bbc03d4777e5bd65214717db37d44f0b3b043364/_contains-falsy.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/bbc03d4777e5bd65214717db37d44f0b3b043364/_contains.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/bbc03d4777e5bd65214717db37d44f0b3b043364/_is-length.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/bbc03d4777e5bd65214717db37d44f0b3b043364/_is-light.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/bbc03d4777e5bd65214717db37d44f0b3b043364/_is-number.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/bbc03d4777e5bd65214717db37d44f0b3b043364/_is-size.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/bbc03d4777e5bd65214717db37d44f0b3b043364/_modular-scale.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/bbc03d4777e5bd65214717db37d44f0b3b043364/_px-to-em.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/bbc03d4777e5bd65214717db37d44f0b3b043364/_px-to-rem.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/bbc03d4777e5bd65214717db37d44f0b3b043364/_shade.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/bbc03d4777e5bd65214717db37d44f0b3b043364/_strip-units.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/bbc03d4777e5bd65214717db37d44f0b3b043364/_tint.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/bbc03d4777e5bd65214717db37d44f0b3b043364/_transition-property-name.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/bbc03d4777e5bd65214717db37d44f0b3b043364/_unpack.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/.sass-cache/c17044e14c0b02252815f0ff968911ec47c759ba/_reset.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/config.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/css/media.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/img/close-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/img/preloader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/libs/bootstrap/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/libs/html5shiv/es5-shim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/libs/html5shiv/html5shiv-printshiv.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/libs/html5shiv/html5shiv.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/libs/jquery/jquery-3.2.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/libs/respond/respond.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/mail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/sass/_basic.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/sass/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/sass/media.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workScss/sass/style.scss" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1jK5jPg2M6umlIBwq9lrOAP61SM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="" />
+    <property name="node.js.selected.package.jscs" value="" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+    <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6975ec24-5224-45e8-b878-4af6ef79d07b" name="Default Changelist" comment="" />
+      <created>1585478975886</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585478975886</updated>
+      <workItem from="1585478983243" duration="10000" />
+      <workItem from="1585485748242" duration="69000" />
+      <workItem from="1585485845947" duration="146000" />
+      <workItem from="1603540081409" duration="95000" />
+      <workItem from="1603542167867" duration="167000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
