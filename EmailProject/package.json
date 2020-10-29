@@ -1,48 +1,32 @@
 {
-  "name": "gulp-project",
+  "name": "emailproject",
   "version": "1.0.0",
-  "description": "My Gulp Project",
-  "main": "index.js",
+  "description": "",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Yaroslav Shilov",
-  "license": "ISC",
-  "devDependencies": {
-    "@babel/cli": "^7.1.2",
-    "@babel/core": "^7.1.2",
-    "@babel/node": "^7.0.0",
-    "@babel/preset-env": "^7.1.0",
-    "browser-sync": "^2.24.7",
-    "del": "^2.2.2",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.1",
-    "gulp-babel": "^8.0.0",
-    "gulp-cache": "^0.4.6",
-    "gulp-clean-css": "^3.0.4",
-    "gulp-concat": "^2.6.1",
-    "gulp-concat-css": "^2.3.0",
-    "gulp-cssnano": "^2.1.3",
-    "gulp-csso": "^3.0.1",
-    "gulp-duration": "0.0.0",
-    "gulp-imagemin": "^3.4.0",
-    "gulp-inline-css": "^3.3.1",
-    "gulp-inline-source": "^3.2.0",
-    "gulp-jade": "^1.1.0",
-    "gulp-newer": "^1.4.0",
-    "gulp-pug": "^4.0.1",
-    "gulp-rename": "^1.4.0",
-    "gulp-sass": "^3.2.1",
-    "gulp-uglify-es": "^1.0.4",
-    "gulp-uglifyjs": "^0.6.2",
-    "i": "^0.3.6",
-    "imagemin-jpeg-recompress": "^5.1.0",
-    "imagemin-pngquant": "^5.1.0",
-    "inky": "^1.3.7"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YaroslavShilov/Work-Blanks.git"
   },
-  "dependencies": {
-    "gulp-clean-css": "^3.0.4",
-    "gulp-jade": "^1.1.0",
-    "pug": "^2.0.0-rc.1"
+  "author": "Yaroslav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YaroslavShilov/Work-Blanks/issues"
+  },
+  "homepage": "https://github.com/YaroslavShilov/Work-Blanks#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-csso": "^4.0.1",
+    "gulp-inline-css": "^4.0.0",
+    "gulp-inline-source": "^4.0.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.1.0",
+    "inky": "^1.4.2"
   }
 }
