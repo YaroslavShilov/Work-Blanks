@@ -22,7 +22,7 @@ task('browser-sync', function() {
 });
 
 task('sass', function(){
-	return src('app/sass/main.+(scss|sass)')
+	return src('app/sass/main/**/*.+(scss|sass)')
 		.pipe(sass())
 		.pipe(autoprefixer(['last 15 versions', '> 1%', 'ie 10'], { cascade: true }))
 		.pipe(csso())
@@ -31,11 +31,11 @@ task('sass', function(){
 		.pipe(browserSync.reload({stream: true}))
 });
 
-task('inky', function() {
+task('inky', series('sass', function() {
 	return src('app/*.html')
 		.pipe(inky())
 		.pipe(dest('app/'))
-});
+}));
 
 task('pug', function() {
 	return src('app/pug/pages/**/*.pug')
@@ -57,7 +57,7 @@ task('watch', function() {
 
 
 
-task('build', function() {
+task('build', async function() {
 
 	del.sync(['dist/*']);
 
