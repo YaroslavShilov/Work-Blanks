@@ -8,12 +8,9 @@ $desc: #000000;
 $subtext: #000000;
 $link: #000000;
 
-$reg: Arial, sans-serif;
-$bold: Arial, sans-serif;
-$light: Arial, sans-serif;
-$italic: Arial, sans-serif;
+$Arial: Arial, sans-serif;
 
-.vis-hid {
+.visible-hidden {
 	position: absolute;
 	width: 1px;
 	height: 1px;
@@ -22,88 +19,45 @@ $italic: Arial, sans-serif;
 	overflow: hidden;
 }
 
-.hid {
+.hide {
 	display: none;
 }
 
-.overf {
+.scroll-hide {
 	overflow: hidden !important;
 	//height: 100vh !important;
 	position: relative !important;
 }
 
-/*BEGIN .sec-pad*/
-.sec-pad {
+/*BEGIN .landing */
+.landing {
+  &-section {
+	  padding: 80px 0;
+  }
 	
-}
-/*END.sec-pad*/
-
-
-/*BEGIN .tit-padd*/
-.tit-padd {
-	
-}
-/*END.tit-padd*/
-
-
-/*BEGIN .wrap*/
-.wrap {
-	
-}
-/*END.wrap*/
-
-
-/*BEGIN .gb-titl*/
-.gb-titl {
-	
-}
-/*END.gb-titl*/
-
-
-/*BEGIN .gb-btn*/
-.gb-btn {
-	
-}
-/*END.gb-btn*/
-
-
-/*BEGIN .gb-lk*/
-.gb-lk {
-	
-}
-/*END.gb-lk*/
-
-
-/*BEGIN .sl-txt-arr*/
-.sl-txt-arr{
-	
-}
-/*END.sl-txt-arr*/
-
-
-/*BEGIN .sl-arr*/
-.sl-arr {
-	
-}
-/*END.sl-arr*/
-
-/*BEGIN ->  .textarea*/
-.textarea {
-	width: 100%;
-	min-height: 44px;
-	outline: none;
-	cursor: text;
-	text-align: left;
-	&:focus {
-		box-shadow: 0 1px 2px rgba(163, 240, 187, 0.2);
-		border: 2px solid #74cc8f;
-		outline: none;
-	}
-	&:empty:before {
-		content: attr(data-placeholder);
-		color: #000;
-		font: 17px Arial, sans-serif;
-		text-align: left;
+	&-title {
+		padding: 0 0 40px;
+		
+		font-size: 60px;
 	}
 }
-/*END -> .textarea*/
+/*END .landing */
+
+.container {
+	max-width: 1980px;
+	padding: 0 40px;
+}
+
+
+/*BEGIN .global-btn*/
+.global-btn {
+	
+}
+/*END.global-btn*/
+
+
+/*BEGIN .global-link*/
+.global-link {
+	
+}
+/*END.global-link*/

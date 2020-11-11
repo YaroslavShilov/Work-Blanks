@@ -13,7 +13,6 @@ body textarea:required:valid {
   //color: blue; //цвет текста когда печатаешь
 }
 
-
 address,
 blockquote,
 figure,
@@ -38,9 +37,11 @@ a {
 	transition: all $time;
 	outline:none !important;
 	border: none;
+	
 	&:hover {
 		outline:none;
 	};
+	
 	&:active {
 		outline:none;
 		transition: all.1s ease;
@@ -49,6 +50,7 @@ a {
 
 button {
 	outline:none;
+	
 	&:active {
 		outline:none;
 		transition: all.1s ease;
@@ -56,14 +58,16 @@ button {
 }
 
 img {
+	display: block;
 	max-width: 100%; 
-	height: auto; 
-	width: auto\9;
+	height: auto;
 }
 
-input,textarea {
+input,
+textarea {
 	@include placecolor($subtext);
 	outline: none;
+	
 	&:focus {
 		outline: none;
 	}
@@ -79,18 +83,20 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
 	margin: 0;
 }
-ul,li {
+
+ul,
+li {
 	list-style: none;
 	margin: 0;
 	padding: 0;
 }
+
 mark {
 	background-color: transparent;
 }
 
-
 body {
-	font-family: $reg, sans-serif; 
+	font-family: $Arial, sans-serif;
 	color: #000; 
 	min-width: 320px;
 	width: 100%; 
