@@ -1,1 +1,0 @@
-# Template for building responsive HTML Emails

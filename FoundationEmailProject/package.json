@@ -14,7 +14,8 @@
   "author": "ZURB <foundation@zurb.com>",
   "license": "MIT",
   "dependencies": {
-    "foundation-emails": "^2.2.1"
+    "foundation-emails": "^2.2.1",
+    "gulp-gh-pages": "^0.5.4"
   },
   "devDependencies": {
     "babel-core": "^6.3.26",

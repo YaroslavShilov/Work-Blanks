@@ -12,6 +12,7 @@ import path     from 'path';
 import merge    from 'merge-stream';
 import beep     from 'beepbeep';
 import colors   from 'colors';
+import ghPages  from 'gulp-gh-pages';
 
 const $ = plugins();
 
@@ -21,6 +22,11 @@ const EMAIL = yargs.argv.to;
 
 // Declar var so that both AWS and Litmus task can use it.
 var CONFIG;
+
+// Deploy the "dist" folder to ghPages
+gulp.task('deploy',function () {
+  return gulp.src("./dist/**/*").pipe(ghPages());
+})
 
 // Build the "dist" folder by running all of the below tasks
 gulp.task('build',

@@ -56,9 +56,3 @@ $browser-context: 16; // Default
 		@content;
 	}
 }
-
-@mixin media($width) {
-	@media only screen and (max-width: $width) {
-		@content;
-	}
-}

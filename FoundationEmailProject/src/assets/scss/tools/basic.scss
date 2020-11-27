@@ -1,9 +1,58 @@
-h1,h2,h3,h4,h5,h6,a,p,span {
-	font-family: $font;
-}
-
 .body,
 body,
 html {
 	background-color: #fff !important;
+}
+
+
+table.container {
+	background-color: transparent;
+}
+
+body, table.body,
+h1, h2, h3, h4, h5, h6,
+p, a, span,
+td, th {
+	font-size: 20px;
+	font-family: $font;
+	font-weight: 500;
+	line-height: 30px;
+
+	color: $text_color;
+	text-align: left;
+}
+
+a:visited,
+a:hover {
+	color: initial;
+}
+
+.e-title {
+	font-size: 28px;
+	font-family: $font;
+	font-weight: 700;
+	line-height: 38px;
+
+	text-align: center;
+}
+
+.e-btn {
+	a {
+		display: block;
+		width: 258px;
+		height: 68px;
+		margin: 0 auto;
+
+		font-size: 16px;
+		font-family: $font;
+		line-height: 69px;
+		letter-spacing: 0.5px;
+
+		color: $white_color;
+		background-color: $btn_bg;
+		-webkit-border-radius: 60px;
+		-moz-border-radius: 60px;
+		border-radius: 60px;
+		text-align: center;
+	}
 }
